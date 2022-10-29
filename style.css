@@ -1,0 +1,128 @@
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    margin: 13px auto 15px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_ul{
+display: flex;
+gap: 62px;
+}
+.header_link{
+    Font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+    text-decoration: none;
+}
+.button_header{
+    height: 40px;
+    width: 157px;
+    background: #6F2CFF;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.button_header:hover{
+    background: #8f65ea;
+    cursor: pointer;
+    transition: 2s;
+}
+.container_footer{
+    max-width: 1440px;
+    margin: 0px auto;
+    margin: 15px auto 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    top: 2000px;
+    background: #e9e509;
+    border-radius: 0px;
+}
+.footer_ul{
+    display: flex;
+    gap: 74px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-left: 106px ;
+}
+.footer_link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1c0303;;
+    text-decoration: none;
+}
+.footer_button{
+    height: 40px;
+    width: 157px;
+    background: #6F2CFF;
+    border-radius: 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 95px;
+    margin-left: 0px;
+    color:#FFFFFF
+}
+.footer_button:hover{
+    background-color:#ba9ff3; 
+    cursor: pointer;
+    transition: 2s;
+}
+.main{
+    background: #1467d2;
+}
+.main_title{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    max-width: 470px;
+}
+.main_title_violete{
+    color: #f31c19;
+}
+.main_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 438px;
+    margin: 18px 0;
+}
+.main_text_bold{
+    font-weight: 900;
+}
+.main_input{
+    height: 45px;
+    width: 268px;
+    background: #FFFFFF;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px 28px 28px 27.5px;
+    padding-left: 26px;
+}
+.form_project{
+    height: 10px;
+    width: 200px;
+    background: #f7f5fa;
+    border-radius: 20px;
+    border: none;
+    font-weight: 1000;
+    font-size: 14px;
+    line-height: 7px;
+    margin-right: 70px;
+    margin-left: 0px;
+    color:#080303
+}
